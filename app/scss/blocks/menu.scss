@@ -1,0 +1,43 @@
+.menu {
+    padding-top: 100px; 
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo {
+            a {
+                font-family: 'fivosans-heavy';
+                color: #ff6a6d;
+                font-size: 32px;
+                text-decoration: none;
+            }
+ 
+        }
+    }
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        .btn__menu {
+            margin-left: 120px;
+        }
+
+    }
+    &__list {
+        display: flex;
+        li {
+            margin-left: 65px;
+            list-style: none;
+        }
+        a {
+            font-family: 'fivosans-regular';
+            color: #6e95b1;
+            font-size: 18px;
+            text-decoration: none;
+            transition: all .2s linear;
+            &:hover {
+                color: #ff6a6d;
+                
+            }
+        }
+    }
+}
