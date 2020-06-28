@@ -1,0 +1,23 @@
+.header {
+    padding-top: 275px;
+    position: relative;
+    &__wrapper {
+        width: 545px;
+        margin-bottom: 75px;
+    }
+    &__title {
+        font-size: 50px;
+        font-family: 'fivosans-bold';
+        line-height: 1.5;
+        color: #000;
+
+        margin-bottom: 50px;
+    }
+    &__subtitle {
+        font-size: 18px;
+        font-family: 'fivosans-light';
+        line-height: 2;
+
+        width: 460px;
+    }
+}
