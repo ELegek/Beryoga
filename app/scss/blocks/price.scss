@@ -1,0 +1,84 @@
+.price {
+    padding-top: 100px;
+    padding-bottom: 200px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__item {
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        min-width: 370px;
+    }
+
+    &__title {
+        text-align: center;
+        color: #000;
+        font-size: 30px;
+        font-family: 'fivosans-bold';
+        padding: 25px 0px;
+    }
+
+    &__subtitle {
+        font-size: 18px;
+        color: #3b3838;
+        padding-left: 70px;
+
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    &__icon {
+        position: absolute;
+        top: 0;
+        left: 20px;
+
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    &__price {
+        text-align: center;
+        position: relative;
+
+        h3 {
+            margin: 0;
+            font-size: 150px;
+            color: #3b3838;
+        }
+
+        sup {
+            position: absolute;
+            top: 0;
+            left: 45px;
+            font-size: 48px;
+        }
+
+        sub {
+            font-size: 30px;
+        }
+
+        p {
+            font-family: 'fivosans-oblique';
+        }
+    }
+
+    &__btn {
+        background: radial-gradient(circle, rgba(95,206,245,1) 0%, rgba(131,227,251,1) 100%);
+        display: block;
+        margin: 0 auto;
+        border: none;
+        border-radius: 50px;
+
+        padding: 30px;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'fivosans-medium';
+    }
+}
