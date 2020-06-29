@@ -4,14 +4,9 @@
     &__wrapper {
         width: 545px;
         margin-bottom: 75px;
-    }
-    &__title {
-        font-size: 50px;
-        font-family: 'fivosans-bold';
-        line-height: 1.5;
-        color: #000;
-
-        margin-bottom: 50px;
+        &-btn {
+            margin-bottom: 450px;
+        }
     }
     &__subtitle {
         font-size: 18px;

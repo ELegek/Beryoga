@@ -1,0 +1,40 @@
+.about {
+    &__wrapper {
+        text-align: center;
+        .title {
+            margin-bottom: 20px;
+        }
+        .subtitle {
+            width: 670px;
+            margin: 0 auto;
+        }
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 150px 0px;
+    }
+    &__item {
+        img {
+            width: 100%;
+            max-width: 200px;
+            height: auto; 
+            min-height: 220px;
+        }
+        
+    }
+    &__img {
+        margin-bottom: 90px;
+    }
+    &__title {
+        font-size: 24px;
+        font-family: 'fivosans-bold';
+        color: #000;
+        margin-bottom: 35px;
+    }
+    &__subtitle {
+        text-align: center;
+        padding: 0px 60px;
+    }
+}
