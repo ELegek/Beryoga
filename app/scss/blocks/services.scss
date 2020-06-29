@@ -1,0 +1,50 @@
+.services {
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+    &__item {
+        width: 47%;
+        img {
+            width: 100%;
+            max-width: 660px;
+            height: auto;
+        }
+    }
+    &__title {
+        font-size: 24px;
+        color: #000;
+        font-family: 'fivosans-bold';
+
+        position: relative;
+
+
+    }
+    &__text {
+        padding-left: 50px;
+    }
+    &__icon {
+        position: absolute;
+        left: -50px;
+        top: 0;
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    &__subtitle {
+        margin-bottom: 55px;
+        line-height: 2;
+    }
+    &__link {
+        a {
+            font-family: 'fivosans-oblique';
+            font-size: 18px;
+            color: #3cbef1;
+            text-decoration: none;
+        }
+
+    }
+}
