@@ -1,8 +1,36 @@
 .footer {
     &__wrapper {
-        padding: 100px 0px;
+        background-color: rgba(193, 242, 254, .9);
+
+        padding: 100px 50px 0px 50px;
+
+        border-top-right-radius: 150px;
+        border-top-left-radius: 150px;
+    }
+    &__items {
         display: flex;
         justify-content: space-around;
-        align-items: start;
+        align-items: flex-start;
+    }
+    &__item {
+        width: 200px;
+        margin-bottom: 50px;
+    }
+    &__title {
+        font-size: 18px;
+        color: #2e2e2e;
+        text-transform: uppercase;
+
+        font-family: 'fivosans-bold';
+        margin-bottom: 50px;
+    }
+    &__subtitle {
+        font-size: 16px;
+        color: #2e2e2e;
+        margin-bottom: 20px;
+    }
+    &__copy {
+        text-align: center;
+        padding-bottom: 50px;
     }
 }
